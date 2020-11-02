@@ -1,14 +1,15 @@
-#include "test.h"
+#include "misc.h"
 
-void setup() {
+#include "ManualControlModule.h"
+
+void setup() 
+{
   Serial.begin(9600);
 
-  //these two lines and their associated files can be deleted, I was just checking whether #include was working
-  Serial.println(teststr);
-  testFunc();
+  ManualControlSetup();
 }
 
 void loop() 
 {
-  
+  ManualControlLoop();
 }
