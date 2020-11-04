@@ -12,6 +12,8 @@ void ManualControlLoop()
   x = analogRead(JoyStick_X);
   y = analogRead(JoyStick_Y);
   z = digitalRead(JoyStick_Z);
+
+  Serial.print("Joystick: ");
   Serial.print(x ,DEC);
   Serial.print(",");
   Serial.print(y ,DEC);
