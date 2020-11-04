@@ -16,4 +16,5 @@ void loop() {
     Serial.print(centre);
     Serial.print(" ");
     Serial.print("left:");
+    delay(500):
 }
