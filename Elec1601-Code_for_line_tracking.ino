@@ -39,4 +39,4 @@ void loop() {
    else if ((right == 0) and (left == 1)){
     servoLeft.writeMicroseconds(1700);
     servoRight.writeMicroseconds(1700); }
-  
+}
