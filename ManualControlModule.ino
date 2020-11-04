@@ -7,6 +7,7 @@ void ManualControlSetup()
 }
 void ManualControlLoop()
 {
+  //Short ints take up half the memory of a normal int, I think.
   short int x,y,z;
   x = analogRead(JoyStick_X);
   y = analogRead(JoyStick_Y);
