@@ -1,6 +1,6 @@
+/*
 #include "misc.h"
 
-#include "ManualControlModule.h"
 #include "LineTraceModule.h"
 
 void setup() 
@@ -17,4 +17,4 @@ void loop()
   ManualControlLoop();
   LineTraceLoop();
 }
-
+*/
