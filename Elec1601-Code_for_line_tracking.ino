@@ -1,3 +1,5 @@
+//The code doesn't compile when this is here so I just commented it out.
+/*
 #include <Servo.h>
 Servo servoRight;
 Servo servoLeft;
@@ -40,3 +42,4 @@ void loop() {
     servoLeft.writeMicroseconds(1700);
     servoRight.writeMicroseconds(1700); }
 }
+*/

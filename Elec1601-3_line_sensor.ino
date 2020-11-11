@@ -1,3 +1,5 @@
+//The code doesn't compile when this is here so I just commented it out.
+/*
 void setup() {
     Serial.begin(9600);
     pinMode(A0,INPUT);
@@ -18,3 +20,4 @@ void loop() {
     Serial.print("left:");
     delay(500);
 }
+*/
